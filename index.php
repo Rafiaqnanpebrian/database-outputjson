@@ -22,3 +22,6 @@
  }
  ?>
 </table>
+<a href="./form.php">Input</a>
+<br>
+<a href="./editform.php">edit</a>
