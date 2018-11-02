@@ -6,7 +6,7 @@
 
 <body>
     <header>
-        <h3>SMK Telkom Purwokerto</h3>
+        <h3>Edit Data</h3>
     </header>
 
     <form action="editproses.php" method="POST">
