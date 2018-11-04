@@ -1,10 +1,14 @@
 <?php
-// konfigurasi database
-$host = "localhost";
-$user = "root";
+$servername = "localhost";
+$username = "root";
 $password = "";
-$database = "php-api";
-// perintah php untuk akses ke database
-$link = mysqli_connect($host, $user, $password, $database) or die ("Koneksi Gagal");
-
+$dbname = "php-api";
+$db = mysqli_connect($servername, $username, $password, $dbname);
+if (!$db){
+        die("Connection Failed:".mysqli_connect_error());
+    }
+$conn = mysqli_connect($servername, $username, $password, $dbname);
+if (!$db){
+        die("Connection Failed:".mysqli_connect_error());
+    }	
 ?>
